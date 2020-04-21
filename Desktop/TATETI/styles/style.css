@@ -1,0 +1,84 @@
+body{
+ margin: 0;
+ font-family: 'Courier New', Courier, monospace;
+}
+.winner{
+    display: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    background-color: #4CAF50;
+    z-index: 1000;
+    color: white;
+    align-content: center;
+    line-height: 200px;
+    font-size: 2em;
+}
+.menu{
+    margin: 0 auto;
+}
+.button{
+    padding: 20px;
+    font-size: 1em;
+    margin: 5px;
+    color: white;
+    background-color: #4CAF50;
+}
+.button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.center{
+    margin: 0 auto;
+    width: 70%;
+}
+.board{
+    border: black 1px solid;
+    margin: 50px auto;
+    background-color: black;
+}
+.board td{
+    padding: 0;
+    border: black 1px solid;
+}
+.cell{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    font-size: 180px;
+    position: relative;
+    text-align: center;
+    line-height: 200px;
+}
+.cell:hover{
+    cursor: pointer;
+}
+.left-top{
+
+}
+.top-middle{
+
+}
+.right-top{
+
+}
+.left-middle{
+
+}
+.middle{
+
+}
+.right-middle{
+
+}
+.left-bottom{
+
+}
+.bottom-middle{
+
+}
+.right-middle{
+
+}
